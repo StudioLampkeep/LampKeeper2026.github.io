@@ -14,7 +14,7 @@ Studio LampKeep（蒼灯機関）の公式ポータルサイトです。GitHub P
 
 2. **LampDrop：混沌迷宮の蒼き灯火 (LampDrop: Chaos Labyrinth)**
    - **ジャンル**: ゴシック・レトロアーケード落下ブロックパズル (Android / Web / Desktop)
-   - **特徴**: 『Prince of Chaos』の美学を継ぐ「繋がる魔導ランプ（ランタンクラスタ）」、リアルタイム背景バトル演出、フルボーカル主題歌3分MV、1988年伝説的アーケードゲームの物理挙動完全再現。
+   - **特徴**: 『Prince of Chaos』の美学を継ぐ「繋がる魔導ランプ（ランタンクラスタ）」、リアルタイム背景バトル演出、フルボーカル主題歌MV、本格アーケードゲームの物理挙動。
    - **個別特設ページ**: [https://lampkeeper2026.github.io/lampdrop/](https://lampkeeper2026.github.io/lampdrop/)
    - **ポリシー**: [lampdrop-privacy.html](lampdrop-privacy.html)
 
@@ -35,7 +35,7 @@ Studio LampKeep（蒼灯機関）の公式ポータルサイトです。GitHub P
 │   ├── img/                    # 高画質ゲーム画面・バトル演出画像
 │   ├── video/                  # シネマティック動画・エンディングMV
 │   └── audio/                  # サウンドトラック・BGM
-├── blockdrop-privacy.html       # ブロックドロップ1988 プライバシーポリシー
+├── lampdrop-privacy.html        # LampDrop プライバシーポリシー
 ├── lampdrop-privacy.html        # LampDrop プライバシーポリシー
 ├── privacy.html                # 青空文庫＆文書AI朗読 プライバシーポリシー
 ├── app-ads.txt                 # Google AdMob 認証用必須ファイル
