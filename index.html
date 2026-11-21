@@ -113,12 +113,12 @@
 
           <div class="hero-stats-bar">
             <div class="stat-item">
-              <div class="stat-number">3+</div>
-              <div class="stat-label">Active Works</div>
+              <div class="stat-number">2</div>
+              <div class="stat-label">Released Apps</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number">32+</div>
-              <div class="stat-label">Original Music</div>
+              <div class="stat-number">2</div>
+              <div class="stat-label">In Development</div>
             </div>
             <div class="stat-item">
               <div class="stat-number">9 Langs</div>
@@ -136,7 +136,7 @@
             <img src="assets/img/poc/hero.jpg" alt="Prince of Chaos" class="deck-thumb">
             <div class="deck-meta">
               <span class="deck-tag" style="color:var(--poc-gold); border-color:var(--poc-gold);">3D Dungeon RPG</span>
-              <span class="deck-platform">Android 8.0+</span>
+              <span class="deck-platform" style="color:#fde68a;">🚧 製作中</span>
             </div>
             <div class="deck-title">Prince of Chaos</div>
           </a>
@@ -187,86 +187,26 @@
       <!-- Filter Bar -->
       <div class="filter-bar">
         <button class="filter-btn active" data-filter="all">すべて表示</button>
+        <button class="filter-btn" data-filter="released">公開中 (Released)</button>
+        <button class="filter-btn" data-filter="wip">🚧 製作中 (In Dev)</button>
         <button class="filter-btn" data-filter="game">ゲーム (Games)</button>
         <button class="filter-btn" data-filter="app">ツール・AI (Apps)</button>
       </div>
 
       <div class="works-list">
 
-        <!-- Project 1: Prince of Chaos -->
-        <article class="work-card theme-gold" data-category="game">
-          <div class="work-visual">
-            <img src="assets/img/poc/hero.jpg" alt="Prince of Chaos ― 混沌迷宮と呪いの公子 ―" class="work-visual-main">
-            <div class="work-visual-overlay"></div>
-            <div class="work-visual-badges">
-              <span class="badge-tag platform-android">Android 8.0+ 専用</span>
-              <span class="badge-tag">基本プレイ無料（広告消し 500円）</span>
-              <span class="badge-tag">全32曲完全内蔵</span>
-            </div>
-            <div class="work-visual-thumbs">
-              <img src="assets/img/poc/hero.jpg" alt="Hero Art" data-src="assets/img/poc/hero.jpg" class="active">
-              <img src="assets/img/poc/01_title.jpg" alt="Title" data-src="assets/img/poc/01_title.jpg">
-              <img src="assets/img/poc/story_prologue.jpg" alt="Story" data-src="assets/img/poc/story_prologue.jpg">
-              <img src="assets/img/poc/05_maze.jpg" alt="Dungeon" data-src="assets/img/poc/05_maze.jpg">
-              <img src="assets/img/poc/boss.jpg" alt="Boss" data-src="assets/img/poc/boss.jpg">
-              <img src="assets/img/poc/07_battle.jpg" alt="Battle" data-src="assets/img/poc/07_battle.jpg">
-            </div>
-          </div>
+        <div class="works-group-label live" data-group="released">
+          <span>✦ 公開中タイトル — LIVE ON GOOGLE PLAY</span>
+        </div>
 
-          <div class="work-info">
-            <div>
-              <div class="work-category gold">✦ 3DダンジョンRPG × ノベル</div>
-              <div class="work-title-group">
-                <img src="assets/img/poc/icon.png" alt="Prince of Chaos Icon" class="work-app-icon">
-                <h3 class="work-title">Prince of Chaos</h3>
-              </div>
-              <p class="work-subtitle">― 混沌迷宮と呪いの公子 ―</p>
-              <p class="work-description">
-                紙芝居と地下迷宮。呪いの公子と呼ばれるリュカと黒猫クロが、楔を集めて逆さ塔へ向かう。
-                台詞は吹き出しでテンポよく展開する全112場面のシナリオ。地下10階＋深淵回廊の探索、連携技バトル、付加効果・ユニーク装備、そして6つの結末。迷宮・文章・絵・音のすべてがアプリに入った完全独自制作のAndroid大作RPG。
-              </p>
-
-              <ul class="work-features">
-                <li>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>112場面の会話劇と6つの結末</strong>：選択と絆によって紡がれるマルチエンディング</span>
-                </li>
-                <li>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>技と気力・連携技</strong>：最大6人隊列による戦術コマンドバトル＆精鋭魔獣</span>
-                </li>
-                <li>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>32曲のオリジナルBGM</strong>：外部データ・ROM不要で完全オフライン完結</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="work-footer">
-              <a href="https://play.google.com/apps/testing/com.lampkeep.princeofchaos" target="_blank" rel="noopener" class="btn-card-action btn-card-primary">
-                Google Play ↗
-              </a>
-              <button class="btn-card-action btn-card-secondary" data-open-modal="poc">
-                詳細仕様・ギャラリー
-              </button>
-              <a href="https://studiolampkeep.github.io/prince-of-chaos/" target="_blank" rel="noopener" class="btn-card-secondary">
-                単体紹介サイト ↗
-              </a>
-              <a href="https://studiolampkeep.github.io/prince-of-chaos-privacy/" target="_blank" rel="noopener" class="btn-card-ghost">
-                プライバシーポリシー
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 2: LampDrop -->
-        <article class="work-card reverse theme-pink" data-category="game">
+        <!-- Project 1: LampDrop (Released) -->
+        <article class="work-card theme-pink" data-category="game released">
           <div class="work-visual">
             <img src="assets/img/blockdrop/feature_graphic.png" alt="LampDrop" class="work-visual-main">
             <div class="work-visual-overlay"></div>
             <div class="work-visual-badges">
+              <span class="badge-tag status-live">● Google Play 公開中 (v1.0.72)</span>
               <span class="badge-tag platform-android">Android 7.0+</span>
-              <span class="badge-tag">Google Play 公開中 (v1.0.72)</span>
               <span class="badge-tag">全46枚フルアートカード</span>
               <span class="badge-tag">EX深淵 LV60–99</span>
               <span class="badge-tag">日英6本MV・9言語対応</span>
@@ -335,14 +275,14 @@
           </div>
         </article>
 
-        <!-- Project 3: Novel AI Reader -->
-        <article class="work-card theme-purple" data-category="app">
+        <!-- Project 2: Novel AI Reader (Released) -->
+        <article class="work-card reverse theme-purple" data-category="app released">
           <div class="work-visual">
             <img src="assets/img/novelreader/feature_graphic.png" alt="青空文庫＆文書AI朗読" class="work-visual-main">
             <div class="work-visual-overlay"></div>
             <div class="work-visual-badges">
+              <span class="badge-tag status-live">● Google Play 公開中 (v1.8.0)</span>
               <span class="badge-tag platform-android">Android 8.0+</span>
-              <span class="badge-tag">Google Play 公開中 (v1.8.0)</span>
               <span class="badge-tag">VOICEVOX 9キャラ内包</span>
               <span class="badge-tag">現代語超訳・7言語翻訳</span>
               <span class="badge-tag">青空文庫1.8万作＆PDF対応</span>
@@ -411,6 +351,131 @@
               <a href="novel-ai-reader/privacy.html" class="btn-card-action btn-card-ghost">
                 プライバシーポリシー
               </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="works-group-label" data-group="wip" style="margin-top: 28px;">
+          <span>🚧 製作中プロジェクト — IN DEVELOPMENT</span>
+        </div>
+
+        <!-- Project 3: Prince of Chaos (In Development) -->
+        <article class="work-card theme-gold" data-category="game wip">
+          <div class="work-visual">
+            <img src="assets/img/poc/hero.jpg" alt="Prince of Chaos ― 混沌迷宮と呪いの公子 ―" class="work-visual-main">
+            <div class="work-visual-overlay"></div>
+            <div class="work-visual-badges">
+              <span class="badge-tag status-wip">🚧 製作中 (In Development)</span>
+              <span class="badge-tag platform-android">Android 8.0+ 予定</span>
+              <span class="badge-tag">全32曲完全内蔵</span>
+            </div>
+            <div class="work-visual-thumbs">
+              <img src="assets/img/poc/hero.jpg" alt="Hero Art" data-src="assets/img/poc/hero.jpg" class="active">
+              <img src="assets/img/poc/01_title.jpg" alt="Title" data-src="assets/img/poc/01_title.jpg">
+              <img src="assets/img/poc/story_prologue.jpg" alt="Story" data-src="assets/img/poc/story_prologue.jpg">
+              <img src="assets/img/poc/05_maze.jpg" alt="Dungeon" data-src="assets/img/poc/05_maze.jpg">
+              <img src="assets/img/poc/boss.jpg" alt="Boss" data-src="assets/img/poc/boss.jpg">
+              <img src="assets/img/poc/07_battle.jpg" alt="Battle" data-src="assets/img/poc/07_battle.jpg">
+            </div>
+          </div>
+
+          <div class="work-info">
+            <div>
+              <div class="work-category gold">✦ 3DダンジョンRPG × ノベル <span class="wip-pill-inline" style="margin-left:8px;">🚧 製作中</span></div>
+              <div class="work-title-group">
+                <img src="assets/img/poc/icon.png" alt="Prince of Chaos Icon" class="work-app-icon">
+                <h3 class="work-title">Prince of Chaos</h3>
+              </div>
+              <p class="work-subtitle">― 混沌迷宮と呪いの公子 ―（現在製作中）</p>
+              <p class="work-description">
+                紙芝居と地下迷宮。呪いの公子と呼ばれるリュカと黒猫クロが、楔を集めて逆さ塔へ向かう。
+                台詞は吹き出しでテンポよく展開する全112場面のシナリオ。地下10階＋深淵回廊の探索、連携技バトル、付加効果・ユニーク装備、そして6つの結末。迷宮・文章・絵・音のすべてを独自構築するダークファンタジーRPGとして鋭意製作中です。
+              </p>
+
+              <ul class="work-features">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>112場面の会話劇と6つの結末</strong>：選択と絆によって紡がれるマルチエンディング</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>技と気力・連携技</strong>：最大6人隊列による戦術コマンドバトル＆精鋭魔獣</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>32曲のオリジナルBGM</strong>：外部データ・ROM不要で完全オフライン完結予定</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="work-footer">
+              <span class="btn-card-wip">🚧 現在製作中（公開準備中）</span>
+              <button class="btn-card-action btn-card-secondary" data-open-modal="poc">
+                詳細仕様・ギャラリー
+              </button>
+              <a href="https://studiolampkeep.github.io/prince-of-chaos/" target="_blank" rel="noopener" class="btn-card-secondary">
+                紹介ページ ↗
+              </a>
+              <a href="https://studiolampkeep.github.io/prince-of-chaos-privacy/" target="_blank" rel="noopener" class="btn-card-ghost">
+                プライバシーポリシー
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Prince of Chaos: Abyssal Hack & Slash (In Development) -->
+        <article class="work-card reverse theme-crimson" data-category="game wip">
+          <div class="work-visual">
+            <img src="assets/img/poc-hackslash/gameplay_hud.jpg" alt="Prince of Chaos: Abyssal Hack & Slash" class="work-visual-main">
+            <div class="work-visual-overlay"></div>
+            <div class="work-visual-badges">
+              <span class="badge-tag status-wip">🚧 製作中 (In Development)</span>
+              <span class="badge-tag">3Dリアルタイム・ハクスラ</span>
+              <span class="badge-tag">Unity URP Forward+</span>
+            </div>
+            <div class="work-visual-thumbs">
+              <img src="assets/img/poc-hackslash/gameplay_hud.jpg" alt="王都ナギ転送陣広場 HUD" data-src="assets/img/poc-hackslash/gameplay_hud.jpg" class="active">
+              <img src="assets/img/poc-hackslash/world_map.jpg" alt="サンクチュアリ大陸図" data-src="assets/img/poc-hackslash/world_map.jpg">
+              <img src="assets/img/poc-hackslash/wide_vista.jpg" alt="王都ナギ広域視点" data-src="assets/img/poc-hackslash/wide_vista.jpg">
+              <img src="assets/img/poc-hackslash/hero_slash.jpg" alt="大剣斬撃モーション" data-src="assets/img/poc-hackslash/hero_slash.jpg">
+              <img src="assets/img/poc-hackslash/architecture.jpg" alt="ゴシック石造建築ディテール" data-src="assets/img/poc-hackslash/architecture.jpg">
+            </div>
+          </div>
+
+          <div class="work-info">
+            <div>
+              <div class="work-category crimson">✦ 3Dリアルタイム・ハクスラRPG <span class="wip-pill-inline" style="margin-left:8px;">🚧 製作中</span></div>
+              <div class="work-title-group">
+                <img src="assets/img/poc/icon.png" alt="Prince of Chaos Hack & Slash Icon" class="work-app-icon">
+                <h3 class="work-title">Prince of Chaos: Abyssal Hack &amp; Slash</h3>
+              </div>
+              <p class="work-subtitle">― 蒼灯城・混沌迷宮と呪いの公子（ハクスラ版・現在製作中） ―</p>
+              <p class="work-description">
+                『蒼灯城 / 混沌迷宮と呪いの公子』の世界観・人物・物語・美術・音楽を完全継承しつつ、ゲームシステムを重厚な<strong>アイソメトリック3Dリアルタイム・ハック＆スラッシュRPG</strong>としてゼロから構築中の新作プロジェクト。
+                環状城塞王都ナギを拠点に、「紅蓮の奈落リフト」をはじめとする七つのアビスへ出撃し、爽快なスキルコンボ・トレジャーハント・ビルド構築を極めます。
+              </p>
+
+              <ul class="work-features">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>環状城塞王都ナギ ＆ 七つのアビス</strong>：古の転送陣・白大理石円形大広場から各幕の楔・ナイトメアリフト（Tier I〜V）へ出撃</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>リアルタイム3D戦闘 ＆ 4灯火スタンス切替</strong>：基本・コア・防御・機動・マスタリー・奥義スキルと「蒼・黄・白・虚」の灯火切替で戦局を制圧</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>深淵ビルド構築 ＆ ハクスラ周回</strong>：スキルツリー、星詠みパラゴンボード、力の古文書＆秘術師ゼノスの化身刻印、ワールドティア設計を鋭意開発中</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="work-footer">
+              <span class="btn-card-wip">🚧 現在製作中（開発ビルド検証中）</span>
+              <button class="btn-card-action btn-card-secondary" data-open-modal="pochackslash">
+                詳細仕様・開発ギャラリー
+              </button>
             </div>
           </div>
         </article>
@@ -561,7 +626,7 @@
         <!-- Policy Card 1 -->
         <div class="policy-card">
           <div class="policy-card-top">
-            <span class="policy-badge">Google Play / Android</span>
+            <span class="policy-badge">🚧 製作中 / Android</span>
             <h3>Prince of Chaos</h3>
             <p>
               『Prince of Chaos ― 混沌迷宮と呪いの公子 ―』における個人情報保護方針、Google AdMob広告配信、Play Billing課金の取り扱いについて明記しています。

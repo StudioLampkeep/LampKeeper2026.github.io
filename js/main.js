@@ -7,27 +7,28 @@
 const APP_DATA = {
   poc: {
     title: 'Prince of Chaos',
-    subtitle: '― 混沌迷宮と呪いの公子 ―',
+    subtitle: '― 混沌迷宮と呪いの公子 ―（🚧 製作中）',
     category: '本格3DダンジョンRPG × 紙芝居会話劇',
-    tag: 'Android 8.0+ 専用',
-    platform: 'Android 8.0+ 専用',
-    price: '基本プレイ無料（広告消し 500円）',
+    tag: '🚧 製作中 · Android 8.0+ 予定',
+    platform: 'Android 8.0+ 専用（開発中）',
+    price: '基本プレイ無料（広告消し 500円・予定）',
     packageId: 'com.lampkeep.princeofchaos',
-    distribution: 'Google Play クローズドテスト / 公開準備中',
+    distribution: '🚧 現在製作中（公開準備中）',
     specs: [
       { label: '日本語正式名称', value: 'Prince of Chaos ― 混沌迷宮と呪いの公子 ―' },
-      { label: 'プラットフォーム', value: 'Android 8.0+ 専用' },
-      { label: '価格方針', value: '基本プレイ無料（広告消し 500円）' },
+      { label: '開発ステータス', value: '🚧 現在製作中（公開準備中）' },
+      { label: 'プラットフォーム', value: 'Android 8.0+ 専用（予定）' },
+      { label: '価格方針', value: '基本プレイ無料（広告消し 500円・予定）' },
       { label: 'パッケージID', value: 'com.lampkeep.princeofchaos' },
       { label: 'ネットワーク', value: '完全オフライン動作（通信なし）' },
       { label: 'サウンド', value: '全32曲 完全オリジナル内包' },
       { label: '操作対応', value: 'タッチスライド見渡し / 十字キー / ゲームパッド' },
       { label: 'シナリオ規模', value: '全112場面 / 6大マルチエンディング' }
     ],
-    description: `呪いの公子と呼ばれるリュカと、言葉を話す黒猫クロが、楔を集めて逆さ塔を目指すダークファンタジーRPG。
+    description: `呪いの公子と呼ばれるリュカと、言葉を話す黒猫クロが、楔を集めて逆さ塔を目指すダークファンタジーRPG（現在製作中）。
 吹き出しによるテンポ良い紙芝居会話劇（全112場面、6つのマルチエンディング）と、一人称視点の重厚な地下迷宮探索が融合。
 壁・床・戦闘背景が階層ごとに変化する地下10階＋深淵回廊、精鋭モンスター、武具の付加効果・ユニーク・組装備システム、連携技バトルなど、やりこみ要素が凝縮されています。
-迷宮・名称・文章・絵・全32曲のオリジナルBGMはすべて独自制作。外部データやROMは一切不要で、完全オフラインで没入できます。`,
+迷宮・名称・文章・絵・全32曲のオリジナルBGMはすべて独自制作。外部データやROMは一切不要で、完全オフラインで没入できる作品として鋭意開発中です。`,
     features: [
       '吹き出しでテンポよく進む112場面の会話劇＆6つの結末（マルチエンディング）',
       '最大6人編成の隊列、技と気力、パートナーとの強力な連携技システム',
@@ -47,10 +48,46 @@ const APP_DATA = {
       { src: 'assets/img/poc/14_inn.jpg', caption: '拠点ナギ：灯火の酒場・鍛冶屋・祈りの宮' }
     ],
     links: [
-      { text: 'Google Play で入手（クローズドテスト）', url: 'https://play.google.com/apps/testing/com.lampkeep.princeofchaos', isExternal: true },
-      { text: 'Prince of Chaos 単体紹介サイト', url: 'https://studiolampkeep.github.io/prince-of-chaos/', isExternal: true, isSecondary: true },
+      { text: 'Prince of Chaos 紹介ページ', url: 'https://studiolampkeep.github.io/prince-of-chaos/', isExternal: true },
       { text: 'プライバシーポリシー', url: 'https://studiolampkeep.github.io/prince-of-chaos-privacy/', isExternal: true, isSecondary: true }
     ]
+  },
+  pochackslash: {
+    title: 'Prince of Chaos: Abyssal Hack & Slash',
+    subtitle: '― 蒼灯城・混沌迷宮と呪いの公子（ハクスラ版・🚧 製作中） ―',
+    category: 'クォータービュー3Dリアルタイム・ハック＆スラッシュRPG',
+    tag: '🚧 製作中 · 3D ARPG',
+    platform: 'PC / モバイル展開検討中（Unity URP Forward+ 開発中）',
+    price: '未定（鋭意製作中）',
+    packageId: 'In Development',
+    distribution: '🚧 現在製作中（開発ビルド検証中）',
+    specs: [
+      { label: '開発ステータス', value: '🚧 現在製作中（開発ビルド検証中）' },
+      { label: 'ジャンル', value: 'アイソメトリック3Dリアルタイム・ハック＆スラッシュRPG' },
+      { label: '描画エンジン', value: 'Unity URP Forward+（60fps PBRゴシック石造表現・リアルタイム光源）' },
+      { label: '拠点・ワールド', value: '環状城塞王都ナギ（第1区画：古の転送陣広場）＆ 七つのアビス' },
+      { label: '戦闘システム', value: '基本/コア/防御/機動/マスタリー/奥義スキル・緊急回避・鮮血の回復薬' },
+      { label: '固有ギミック', value: 'ランタン4灯火切替（蒼の灯・黄の灯・白の灯・虚の灯）' },
+      { label: '育成・エンドゲーム', value: 'スキルツリー・星詠みパラゴンボード・力の古文書＆化身刻印・ナイトメアリフト（Tier I〜V）' }
+    ],
+    description: `『蒼灯城 / 混沌迷宮と呪いの公子』の世界観・人物・物語・美術・音楽を完全継承しつつ、ゲームシステムをアイソメトリック視点の3Dリアルタイム・ハック＆スラッシュRPGとしてゼロから構築中の新作プロジェクトです。
+環状城塞王都ナギの「古の転送陣・白大理石円形大広場」を拠点に、第1幕「紅蓮の奈落リフト」をはじめとする七つのアビスと各幕の楔へ出撃。
+5段階ズーム可能なクォータービュー視点と爽快な大剣アクション、4種の灯火切替、装備トレジャーハント＆パラゴンビルド構築を融合した本格ダークファンタジーARPGとして鋭意開発中です。`,
+    features: [
+      '環状城塞王都ナギ：URP Forward+ で描き出されるゴシック石造建築、白大理石円形大広場と脈動する古の転送陣',
+      'サンクチュアリ大陸図 ＆ ナイトメア・リフト：紅蓮の奈落（Tier I〜V）や各幕の楔・零のアビスへ挑むエンドゲーム構造',
+      '本格リアルタイムARPG戦闘：基本・コア・防御（障壁/強化）・機動・マスタリー・奥義スキルと緊急回避ダッシュ',
+      'ランタンの4灯火スタンス切替：「蒼の灯・黄の灯・白の灯・虚の灯」を瞬時に切り替え、戦況と敵属性に対応',
+      '深いハクスラ育成要素：装備インベントリ＆ダメージバケット設計、スキルツリー、星詠みパラゴンボード、力の古文書＆秘術師ゼノスの化身刻印'
+    ],
+    gallery: [
+      { src: 'assets/img/poc-hackslash/gameplay_hud.jpg', caption: '開発画面：環状城塞王都ナギ・古の転送陣広場とリアルタイムARPG HUD' },
+      { src: 'assets/img/poc-hackslash/world_map.jpg', caption: 'サンクチュアリ大陸図：王都ナギ・紅蓮の奈落リフト（Tier I〜V）・各幕の楔' },
+      { src: 'assets/img/poc-hackslash/wide_vista.jpg', caption: '広域視点（5段階カメラズーム）：白大理石円形大広場と転送ポータル' },
+      { src: 'assets/img/poc-hackslash/hero_slash.jpg', caption: 'リアルタイム戦闘モーション：ブラッドナイトの大剣斬撃と石畳ディテール' },
+      { src: 'assets/img/poc-hackslash/architecture.jpg', caption: 'ゴシック建築ディテール：URP Forward+ リアルタイム松明光源と石造彫刻' }
+    ],
+    links: []
   },
   blockdrop: {
     title: 'LampDrop：混沌迷宮の蒼き灯火',
@@ -434,6 +471,7 @@ function initNavbar() {
 function initFilter() {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.work-card');
+  const groupLabels = document.querySelectorAll('.works-group-label');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -443,8 +481,8 @@ function initFilter() {
       const filter = btn.getAttribute('data-filter');
 
       cards.forEach(card => {
-        const category = card.getAttribute('data-category');
-        if (filter === 'all' || category === filter) {
+        const categories = (card.getAttribute('data-category') || '').split(/\s+/);
+        if (filter === 'all' || categories.includes(filter)) {
           card.style.display = 'grid';
           setTimeout(() => {
             card.style.opacity = '1';
@@ -457,6 +495,15 @@ function initFilter() {
             card.style.display = 'none';
           }, 300);
         }
+      });
+
+      groupLabels.forEach(label => {
+        const group = label.getAttribute('data-group');
+        const hasVisible = Array.from(cards).some(card => {
+          const cats = (card.getAttribute('data-category') || '').split(/\s+/);
+          return cats.includes(group) && (filter === 'all' || cats.includes(filter));
+        });
+        label.style.display = hasVisible ? 'flex' : 'none';
       });
     });
   });
