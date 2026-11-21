@@ -92,7 +92,7 @@ const APP_DATA = {
   blockdrop: {
     title: 'LampDrop：混沌迷宮の蒼き灯火',
     subtitle: 'LampDrop: Chaos Labyrinth ― 暗闇を切り裂く、蒼き刃と魔導ランタンの共鳴',
-    category: '本格アーケード物理 × ダークファンタジー迷宮RPG',
+    category: '本格アーケードパズル × ダークファンタジー迷宮RPG',
     tag: 'Android 7.0+ / Google Play 公開中',
     platform: 'Android 7.0+ (Google Play 公開中)',
     price: '基本プレイ無料（買い切りプレミアムパス ¥600）',

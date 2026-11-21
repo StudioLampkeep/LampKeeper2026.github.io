@@ -11,7 +11,7 @@ Studio LampKeep（蒼灯機関）の公式ポータルサイトです。GitHub P
 ## 🌟 公開中タイトル (Released)
 
 1. **LampDrop：混沌迷宮の蒼き灯火 (LampDrop: Chaos Labyrinth)** — `v1.0.72` (Google Play 公開中)
-   - **ジャンル**: 本格アーケード物理 × ダークファンタジー迷宮RPG (Android)
+   - **ジャンル**: 本格アーケードパズル × ダークファンタジー迷宮RPG (Android)
    - **特徴**: 90%透過12×20盤面、全46枚フルアートカード（15大ボス＋20種モブ波状戦＋味方11）、ボス必殺テレグラフ破り、自動難易度『魔導炉』、EX深淵（LV60–99）、日英6本ボーカルMV、9言語対応。
    - **Google Play**: [https://play.google.com/store/apps/details?id=com.lampkeep.blockdrop1988](https://play.google.com/store/apps/details?id=com.lampkeep.blockdrop1988)
    - **個別特設ページ**: [https://studiolampkeep.github.io/LampKeeper2026.github.io/lampdrop/](https://studiolampkeep.github.io/LampKeeper2026.github.io/lampdrop/)
