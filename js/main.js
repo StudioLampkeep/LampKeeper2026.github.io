@@ -48,60 +48,56 @@ const APP_DATA = {
     ],
     links: [
       { text: 'Google Play で入手（クローズドテスト）', url: 'https://play.google.com/apps/testing/com.lampkeep.princeofchaos', isExternal: true },
-      { text: 'Prince of Chaos 単体紹介サイト', url: 'https://lampkeeper2026.github.io/prince-of-chaos/', isExternal: true, isSecondary: true },
-      { text: 'プライバシーポリシー', url: 'https://lampkeeper2026.github.io/prince-of-chaos-privacy/', isExternal: true, isSecondary: true }
+      { text: 'Prince of Chaos 単体紹介サイト', url: 'https://studiolampkeep.github.io/prince-of-chaos/', isExternal: true, isSecondary: true },
+      { text: 'プライバシーポリシー', url: 'https://studiolampkeep.github.io/prince-of-chaos-privacy/', isExternal: true, isSecondary: true }
     ]
   },
   blockdrop: {
     title: 'LampDrop：混沌迷宮の蒼き灯火',
-    subtitle: 'LampDrop: Chaos Labyrinth ― 暗闇を切り裂く、蒼き刃と光の連鎖',
-    category: '中世ゴシック・ダークファンタジー高速パズル',
-    tag: 'Android 8.0+ / Web',
-    platform: 'Android 8.0+ / Webブラウザ / PC',
+    subtitle: 'LampDrop: Chaos Labyrinth ― 暗闇を切り裂く、蒼き刃と魔導ランタンの共鳴',
+    category: '本格アーケード物理 × ダークファンタジー迷宮RPG',
+    tag: 'Android 7.0+ / Google Play 公開中',
+    platform: 'Android 7.0+ (Google Play 公開中)',
     price: '基本プレイ無料（買い切りプレミアムパス ¥600）',
     packageId: 'com.lampkeep.blockdrop1988',
-    distribution: 'Google Play クローズドテスト (Alpha Track) 配備中 / 公開準備中',
+    distribution: 'Google Play ストア公開中',
     specs: [
-      { label: 'プラットフォーム', value: 'Android 8.0+ / Web' },
-      { label: '最新バージョン', value: 'v1.0.15 (Build 16)' },
-      { label: '操作性', value: '本格アーケード物理（両方向スピン・NEXT ⇄ 2ND入替・壁床キック）' },
-      { label: '難易度設計', value: '初級(超ゆったり・神配牌・1行破呪) / 中級 / 混沌' },
-      { label: 'プレイフィールド', value: '12×20 ワイド戦場（神聖十字架★RARE 10%）' },
-      { label: 'ビジュアル演出', value: '6大迷宮シネマティック動画背景' },
-      { label: '料金体系', value: '基本無料 / 買い切り¥600（完全広告消し＋作業用MV）' },
-      { label: '安心設計', value: '不要な個人情報収集ゼロ・オフライン対応' },
+      { label: 'プラットフォーム', value: 'Android 7.0+（Bluetooth/USBゲームパッド対応）' },
+      { label: '最新バージョン', value: 'v1.0.72 (Build 73)' },
+      { label: '操作性', value: '上下2段の独立左右回転・NEXT ⇄ 2NDタップ入替・壁床キック・回転入れ' },
+      { label: '難易度設計', value: '自動最適化『魔導炉（魔炎度 0.0–9.0）』＆ 全6章体験型チュートリアル道場' },
+      { label: 'プレイフィールド', value: '90%透過ガラス 12×20 ワイド戦場（ランタン共鳴＆聖十字・大浄化）' },
+      { label: 'カード＆戦闘', value: '全46枚フルアートカード（15大ボス＋20種モブ波状戦＋味方11）' },
+      { label: 'エンドゲーム', value: 'EX深淵領域（LV60–99 / 4深度・5大深淵法則・Ω OMEGA称号）' },
+      { label: '料金体系', value: 'LV0–30無料 / 買い切り¥600（LV31–60+・EX深淵・広告永久削除／LV30×30回でLV31+無料解放）' },
+      { label: '対応言語', value: '全9言語（日・英・中・韓・仏・葡・泰・西・独）＆ 日英6本ボーカルMV' },
       { label: 'パッケージID', value: 'com.lampkeep.blockdrop1988' }
     ],
     description: `一列消せば、敵を両断。ブロックを積むたび、心拍数が跳ね上がる！
-本格レトロアーケードパズルの魂が息づく爽快感に、重厚なダークファンタジーの死闘が融合した『LampDrop（ランプドロップ）』。
-息を呑む美麗シネマティック迷宮を舞台に、広大な12×20の戦場と奇跡の5マスピース「聖十字架」が降臨！
-初心者やカジュアル層でもじっくり安心して遊べる「魔導炉ダイナミック難易度」や「全6章体験型チュートリアル道場」を完全装備。パズルの快感とRPGの興奮が最高潮にシンクロします。`,
+60fps本格アーケードパズルの操作感に、ダークファンタジー迷宮RPGカードバトルが完全融合した『LampDrop（ランプドロップ）』。
+90%透過ガラスの12×20戦場で同色ランプを繋ぐ【ランタン共鳴】、装甲半減の【秘剣・回転入れ（Arcane Twist）】、ボス必殺詠唱を打ち砕く【テレグラフ破り】を駆使し、20種の迷宮モブ波状戦と15体の深淵守護者、さらにクリア後のEX深淵（LV60–99）を制覇せよ！
+腕前に応じて自動最適化する『魔導炉（0.0–9.0）』、全6章体験型チュートリアル道場、日英6本ボーカルMV＆12シーンシアターまで完全収録。`,
     features: [
-      '快適パズル革命：上下2段の独立左右回転・NEXT ⇄ 2NDタップ入替・誤爆防止ハードドロップに対応',
-      '本格アーケード物理：滑らかな着地猶予・隙間ねじ込み回転入れ（Arcane Twist）・壁床キック完全対応',
-      '誤タップ皆無：片手スマホ操作に最適化した約1.6倍大型ボタンの「特大ポーズメニュー」',
-      '一撃破呪（Holy Purge）：初級なら1ライン消去だけで即座にボスの全呪縛を粉砕する爽快カウンタープレイ',
-      '大迫力の12×20ワイド戦場 ＆ 奇跡の聖十字架：広大な盤面が生み出す怒濤の大連鎖と、出現率10%に倍増した幻の5マスレリック',
-      '息を呑むほど美しい6大迷宮世界：ゲームプレイ中も背後で青き灯火や霧がリアルタイムに息づくシネマティック動画',
-      '公式主題歌3分MVシアター：Google Flow Music制作・日本語／英語デュアル歌姫ヴォーカル切り替え対応',
-      '買い切りプレミアムパス（¥600）：完全広告非表示＋デスクを彩るシネマティック作業用ループMVが全開放',
-      '全国オンラインランキング：世界中のライバルと競い合い深淵の頂点を目指せ'
+      '快適パズル革命：上下2段の独立左右回転・NEXT ⇄ 2NDタップ入替・誤爆防止ハードドロップ・壁床キック完全対応',
+      '戦術カード戦闘：ランタン共鳴（5個連結属性魔法）・秘剣回転入れ（DEF半減）・ボス必殺テレグラフ破り（反撃＆回復）',
+      '全46枚フルアートカード：20種前衛モブ波状戦・2倍HP＆15種固有登場演出ボス・進化ルーカス・歌姫ウタ手動聖歌・精霊クロ日英ボイス救援',
+      'エンドゲーム『EX深淵（LV60–99）』：5層ごとに戦況が変わる5大深淵法則と覚醒ボスラッシュでΩ OMEGA称号に挑戦',
+      '自動難易度『魔導炉（0.0–9.0）』＆ 全6章体験型道場：手動難易度選択不要で初心者から上級者まで最適な熱狂を提供',
+      '日英6本ボーカルMV＆12シーンシアター・全15体ボス魔物図鑑（討伐時DEFEATED金箔印）・世界ランキング対応',
+      '明朗課金設計：LV0–30＆CHAOS BURST＆デイリー無料。買い切りプレミアムパス（¥600）で全要素＆全広告永久削除（LV30到達30回でLV31+無料解放も対応）'
     ],
     gallery: [
-      { src: 'assets/img/blockdrop/feature_graphic.png', caption: '公式グラフィック：LampDrop 混沌迷宮の蒼き灯火' },
-      { src: 'assets/img/blockdrop/promo_01_title.png', caption: 'ストア紹介：魔導ランプ連結×本格ゴシック・レトロ落下パズル' },
-      { src: 'assets/img/blockdrop/promo_02_battle.png', caption: 'リアルタイム背景バトル：ライン消去で太刀筋を放ちボスを撃破せよ' },
-      { src: 'assets/img/blockdrop/promo_03_howto.png', caption: '遊び方ガイド：基本操作から呪いの破呪・ボス戦まで親切解説' },
-      { src: 'assets/img/blockdrop/promo_04_mv_bestiary.png', caption: '豪華コンテンツ：全13章主題歌MV＆深淵魔獣図鑑' },
-      { src: 'assets/img/blockdrop/battle_title.png', caption: 'タイトル画面：魔導ランプ連結×リアルタイム背景バトル『LampDrop』' },
-      { src: 'assets/img/blockdrop/battle_gameplay.png', caption: 'プレイ画面：真鍮フレーム・リアルタイム背景バトル・連なる魔導ランプ' },
-      { src: 'assets/img/blockdrop/card_crescent_slash.png', caption: '戦闘演出：ライン消去と連動してリュカの三日月斬りが炸裂' },
-      { src: 'assets/img/blockdrop/card_battle_b1f.png', caption: '迷宮バトル：深淵の怪異・スケルトンナイトとの激闘' },
-      { src: 'assets/img/blockdrop/lampdrop_stacked.png', caption: '盤面：美しく結束するランタンクラスタと4ライン消去MEGA CLEAR' }
+      { src: 'assets/img/blockdrop/feature_graphic.png', caption: '公式グラフィック：LampDrop 混沌迷宮の蒼き灯火（Plan A 新アイコン）' },
+      { src: 'assets/img/blockdrop/promo_01_battle.png', caption: '12×20透過盤面×迷宮RPGカードバトル（上下2段左右回転＆NEXT入替）' },
+      { src: 'assets/img/blockdrop/promo_02_slash.png', caption: '4列【聖十字・破呪】× 必殺ブレイク × 秘剣回転入れ' },
+      { src: 'assets/img/blockdrop/promo_03_bestiary.png', caption: '全46枚フルアートカード・15大ボス図鑑 ＆ 精霊クロ緊急救援' },
+      { src: 'assets/img/blockdrop/promo_04_mv.png', caption: '日英6本ボーカル主題歌MV ＆ 12シーンBGMシアター' },
+      { src: 'assets/img/blockdrop/promo_05_hybrid.png', caption: '多彩なゲームモード・EX深淵（LV60–99）＆ 物理ゲームパッド対応' }
     ],
     links: [
+      { text: 'Google Play ストアで入手', url: 'https://play.google.com/store/apps/details?id=com.lampkeep.blockdrop1988', isExternal: true },
       { text: 'LampDrop 特設公式サイト', url: 'lampdrop/index.html', isExternal: false },
-      { text: 'Google Play テスト版に参加 (Alpha)', url: 'https://play.google.com/apps/testing/com.lampkeep.blockdrop1988', isExternal: true },
+      { text: '公式PVを視聴 (YouTube)', url: 'https://www.youtube.com/watch?v=hOTzv1ojSjA', isExternal: true, isSecondary: true },
       { text: 'プライバシーポリシー', url: 'lampdrop-privacy.html', isExternal: false, isSecondary: true }
     ]
   },
@@ -109,47 +105,50 @@ const APP_DATA = {
     title: '青空文庫＆文書AI朗読',
     subtitle: 'Aozora & Document AI Reader ― 複数声優で聴く小説・PDF',
     category: 'AI複数声優オート配役 × 古典現代語超訳 × 7ヶ国語AI翻訳プレイヤー',
-    tag: 'Android 8.0+ / Windows PWA',
+    tag: 'Android 8.0+ / Google Play 公開中',
     platform: 'Android 8.0+ / Windows 10/11 (Web PWA)',
     price: '基本無料（広告非表示・AI翻訳・BG無制限プレミアム対応）',
     packageId: 'com.lampkeep.novel.aireader',
     distribution: 'Google Play ストア公開中',
     specs: [
       { label: 'プラットフォーム', value: 'Android 8.0+ / Windows PWA' },
-      { label: '最新バージョン', value: 'v1.7.3 (Build 44)' },
+      { label: '最新バージョン', value: 'v1.8.0 (Build 51)' },
       { label: '料金体系', value: '基本無料 / プレミアム買い切りアップグレード' },
-      { label: '音声合成エンジン', value: 'VOICEVOX Native × OS標準TTS' },
-      { label: '超訳・多言語翻訳', value: '古典の現代語超訳 ＆ 主要7ヶ国語（日・英・中・韓・西・仏・葡）翻訳朗読' },
-      { label: 'バックグラウンド', value: '画面OFF連続再生 (FGS / リワード3時間解放)' },
-      { label: '車載・操作性', value: 'Bluetooth / ステアリングスイッチ / 大型カーモード' },
+      { label: '音声合成エンジン', value: 'VOICEVOX Native（9キャラ内蔵）× OS標準TTS' },
+      { label: '収録・対応形式', value: '青空文庫18,000作（136名作初期収録）・PDF / Word / TXT / Markdown / AI OCR' },
+      { label: '超訳・多言語翻訳', value: '古典の現代語超訳（2段対訳）＆ 主要7ヶ国語（日・英・中・韓・西・仏・葡）翻訳朗読' },
+      { label: 'バックグラウンド', value: '画面OFF連続再生 (FGS) ＆ 大型ボタン「カーモード」・Bluetooth連携' },
+      { label: '読書快適機能', value: '4大テーマ（紙白/セピア/ダーク/OLED）・縦書き・環境音BGMミキサー・睡眠タイマー' },
       { label: 'パッケージID', value: 'com.lampkeep.novel.aireader' }
     ],
-    description: `青空文庫の日本文学名作1万8千作品（136名作初期収録）やお手持ちの所持文書（PDF・TXT・DOCX・画像OCR）を、AIがリアルタイムに文脈・感情解析！
-地の文と登場人物のセリフを厳密に分離判別し、VOICEVOX Native（ずんだもん、四国めたん、青山龍星等）やOS標準TTSがキャラクターごとに声分けしてドラマCDのように臨場感豊かに朗読する次世代AIオーディオブックアプリです。
-明治・大正の古典がスラスラわかる「現代語超訳」＆「7ヶ国語AI翻訳朗読機能」、目に優しい4大カラーテーマ（紙白・セピア・ダーク・OLED）、運転用の超大型ボタン「カーモード」、完全機内モード対応のオフライン保存など、あらゆる読書シーンを豊かにする機能が凝縮されています。`,
+    description: `青空文庫の日本文学名作18,000作品（136名作初期収録）やお手持ちの所持文書（PDF・Word・TXT・Markdown・スキャンPDF AI OCR）を、AIがリアルタイムに文脈・感情解析！
+ナレーションと登場人物のセリフを自動判別し、アプリ内蔵のVOICEVOX 9キャラクター（四国めたん・ずんだもん・春日部つむぎ・雨晴はう・玄野武宏・剣崎雌雄・青山龍星・もち子(cv 明日葉よもぎ)・小夜/SAYO）やOS標準TTSがキャラクターごとに声分けしてドラマCDのように朗読する次世代AIオーディオブックアプリです。
+古典がスラスラわかる「現代語超訳」＆「7ヶ国語AI翻訳朗読」、4大テーマ＆縦書き、環境音BGMミキサー＆睡眠タイマー、運転用の超大型ボタン「カーモード」、アカウント不要＆端末内ローカル保存で安心して楽しめます。`,
     features: [
-      '文脈・感情をAIが自動推論しキャラクターごとに最適配役する「複数声優オート配役システム」',
-      '表現力豊かな感情音声「VOICEVOX Native」完全内包 ＆ OS標準ネイティブTTSとのハイブリッド融合',
-      '古典がスラスラわかる「現代語超訳」＆ 日本語から英・中・韓・西・仏・葡へ即時AI翻訳してネイティブ朗読する「7言語翻訳機能」',
-      '青空文庫1万8千作品対応（136名作プリセット収録）＆ 人気順・文字数フィルタで読みたい名作が1秒で見つかる',
-      'お手持ちのPDF・TXT・Word文書の自動章分割取り込み ＆ スキャン画像のAI文字起こし（OCR）対応',
-      '画面OFF・ポケット内でも途切れない完全バックグラウンド再生 ＆ 大型ボタン「カーモード」搭載',
-      '目に優しい4大高コントラストテーマ（Paper / Sepia / Dark / OLED）＆ 本文タッチスライドによるスムーズスクロール',
-      '完全機内モード対応のオフライン本棚・睡眠タイマー・環境音BGMミキサー・個人データ収集ゼロの安心設計'
+      'AI複数声優オート配役：文脈・口調からナレーションと登場人物を自動判別し、キャラ別に最適キャスティング',
+      'VOICEVOX 9キャラ完全内包 × OS標準TTS：声色・ピッチ・話速・間合いを1タップ試聴しながら自在に調整',
+      '古典の「現代語超訳」＆「7ヶ国語AI翻訳朗読」：2段対訳表示と英・中・韓・西・仏・葡のネイティブTTS読み上げ対応',
+      '青空文庫18,000作品検索 ＆ 136名作初期収録：日替わり今日の一冊・5分短編・人気順検索で即再生',
+      'PDF / Word / TXT / Markdown 流し込み ＆ AI OCR：見出し自動章分割とスキャンPDF文字起こし（任意Gemini API連携）',
+      '画面OFFバックグラウンド再生 ＆ 大型ボタン「カーモード」：Bluetoothイヤホン・車載ステアリングスイッチ完全対応',
+      '4大高コントラストテーマ（紙白・セピア・ダーク・OLED漆黒）・縦書き/横書き切替・環境音BGMミキサー（雨音・焚き火・森・カフェ）・睡眠タイマー・体験型ガイド搭載'
     ],
     gallery: [
-      { src: 'assets/img/novelreader/feature_graphic.png', caption: '公式グラフィック：名作文学が、声優ドラマになる。' },
-      { src: 'assets/img/novelreader/promo_01.png', caption: '複数声優オート配役：地の文と登場人物をAIが判別し声分け朗読' },
-      { src: 'assets/img/novelreader/promo_02.png', caption: '青空文庫1.8万作＆136名作収録：人気順・文字数フィルタ・1タップ再生' },
-      { src: 'assets/img/novelreader/promo_03.png', caption: 'AI登場人物解析＆音響調整：キャラ別の声色・ピッチ・話速・エコー設定' },
-      { src: 'assets/img/novelreader/promo_04.png', caption: '現代語超訳＆7ヶ国語AI翻訳：古典を現代語や英語・中国語等へ翻訳朗読' },
-      { src: 'assets/img/novelreader/promo_05.png', caption: '画面OFF再生＆大型カーモード：ドライブや通勤でも見ずに安全操作' },
-      { src: 'assets/img/novelreader/promo_06.png', caption: 'PDF/Word/TXT文書流し込み＆4大テーマ：手持ち資料もオーディオブック化' }
+      { src: 'assets/img/novelreader/feature_graphic.png', caption: '公式グラフィック：名作文学も手持ちPDFも、耳で聴くドラマ体験へ。' },
+      { src: 'assets/img/novelreader/promo_01.png', caption: '① 複数声優オート配役：ナレーションとセリフを自動判別し声分け朗読' },
+      { src: 'assets/img/novelreader/promo_02.png', caption: '② 青空文庫18,000作品＆136名作初期収録：日替わり今日の一冊・5分短編' },
+      { src: 'assets/img/novelreader/promo_03.png', caption: '③ VOICEVOX 9キャラ完全内包：キャラ別の声・ピッチ・話速を自在調整' },
+      { src: 'assets/img/novelreader/promo_04.png', caption: '④ 古典の現代語超訳＆7ヶ国語AI翻訳：2段対訳表示＆ネイティブ朗読' },
+      { src: 'assets/img/novelreader/promo_05.png', caption: '⑤ 画面OFF連続再生＆大型カーモード：運転中や移動中も安全操作' },
+      { src: 'assets/img/novelreader/promo_06.png', caption: '⑥ PDF/Word/TXT/MD流し込み＆AI OCR：手持ち資料をオーディオブック化' },
+      { src: 'assets/img/novelreader/promo_07.png', caption: '⑦ 4大読書テーマ・縦書き・環境音BGMミキサー・おやすみタイマー' }
     ],
     links: [
       { text: 'Google Play ストアで入手', url: 'https://play.google.com/store/apps/details?id=com.lampkeep.novel.aireader', isExternal: true },
       { text: '青空文庫＆文書AI朗読 特設公式サイト', url: 'novel-ai-reader/index.html', isExternal: false },
-      { text: '公式取扱説明書・全機能ガイド (PDF 10P)', url: 'novel-ai-reader/小説AI朗読_全機能取扱説明書_完全マニュアル.pdf', isExternal: false },
+      { text: '公式PVを視聴 (YouTube)', url: 'https://www.youtube.com/watch?v=s_8apjh84RY', isExternal: true, isSecondary: true },
+      { text: '使い方解説ガイド動画 (YouTube)', url: 'https://www.youtube.com/watch?v=RDAYXnzfNzM', isExternal: true, isSecondary: true },
+      { text: '公式取扱説明書 (PDF 10P)', url: 'novel-ai-reader/小説AI朗読_全機能取扱説明書_完全マニュアル.pdf', isExternal: false, isSecondary: true },
       { text: 'プライバシーポリシー', url: 'novel-ai-reader/privacy.html', isExternal: false, isSecondary: true }
     ]
   }

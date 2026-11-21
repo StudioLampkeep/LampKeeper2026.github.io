@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プライバシーポリシー (Privacy Policy) - LampDrop | Studio LampKeep</title>
-    <meta name="description" content="Studio LampKeepが開発するAndroid向けパズルゲーム『LampDrop (ランプドロップ：混沌迷宮の蒼き灯火)』のプライバシーポリシーです。">
+    <meta name="description" content="Studio LampKeepが開発するダークファンタジー落下パズルRPG『LampDrop（ランプドロップ：混沌迷宮の蒼き灯火）』の公式プライバシーポリシー（日本語 / English）。">
+    <link rel="icon" type="image/png" href="img/icon.png">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Inter:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #080c14;
-            --card-bg: rgba(18, 25, 42, 0.85);
-            --card-border: rgba(0, 210, 255, 0.25);
-            --text-main: #e2e8f0;
+            --bg-color: #050811;
+            --card-bg: rgba(13, 20, 36, 0.88);
+            --card-border: rgba(0, 210, 255, 0.28);
+            --text-main: #f1f5f9;
             --text-muted: #94a3b8;
             --accent-cyan: #00d2ff;
-            --accent-gold: #ffd24b;
-            --accent-blue: #1e3a8a;
+            --accent-gold: #fbbf24;
         }
 
         * {
@@ -29,31 +29,46 @@
 
         body {
             background-color: var(--bg-color);
-            background-image: 
-                radial-gradient(circle at 50% 0%, rgba(0, 210, 255, 0.08) 0%, transparent 60%),
-                radial-gradient(circle at 10% 40%, rgba(30, 58, 138, 0.1) 0%, transparent 50%);
+            background-image:
+                radial-gradient(circle at 50% 0%, rgba(0, 210, 255, 0.1) 0%, transparent 60%),
+                radial-gradient(circle at 85% 30%, rgba(251, 191, 36, 0.06) 0%, transparent 50%);
             color: var(--text-main);
             font-family: 'Inter', 'Noto Sans JP', sans-serif;
             line-height: 1.8;
-            padding: 40px 20px;
+            padding: 40px 20px 64px;
             min-height: 100vh;
         }
 
         .container {
-            max-width: 860px;
+            max-width: 880px;
             margin: 0 auto;
             background: var(--card-bg);
             border: 1px solid var(--card-border);
-            border-radius: 16px;
-            padding: 48px 40px;
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 210, 255, 0.05);
-            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 48px 44px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 30px rgba(0, 210, 255, 0.08);
+            backdrop-filter: blur(14px);
+            position: relative;
+            overflow: hidden;
         }
 
-        .header {
-            border-bottom: 1px solid rgba(0, 210, 255, 0.2);
-            padding-bottom: 24px;
-            margin-bottom: 32px;
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-gold), var(--accent-cyan));
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
         }
 
         .nav-back {
@@ -62,9 +77,8 @@
             gap: 8px;
             color: var(--accent-cyan);
             text-decoration: none;
-            font-size: 0.95rem;
-            margin-bottom: 20px;
-            font-weight: 500;
+            font-size: 0.92rem;
+            font-weight: 600;
             transition: transform 0.2s ease, color 0.2s ease;
         }
 
@@ -73,45 +87,93 @@
             transform: translateX(-4px);
         }
 
+        .lang-tabs {
+            display: inline-flex;
+            gap: 8px;
+        }
+
+        .lang-tab {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(0, 210, 255, 0.3);
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-tab.active, .lang-tab:hover {
+            background: rgba(0, 210, 255, 0.16);
+            border-color: var(--accent-cyan);
+            color: #ffffff;
+        }
+
+        .header {
+            border-bottom: 1px solid rgba(0, 210, 255, 0.18);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
         h1 {
-            font-family: 'Cinzel', serif;
+            font-family: 'Cinzel', 'Noto Sans JP', serif;
             font-size: 2rem;
             color: #ffffff;
-            letter-spacing: 0.05em;
-            margin-bottom: 10px;
-            text-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+            letter-spacing: 0.04em;
+            margin-bottom: 12px;
+            text-shadow: 0 0 20px rgba(0, 210, 255, 0.35);
+        }
+
+        .meta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
         }
 
         .updated-badge {
             display: inline-block;
-            background: rgba(0, 210, 255, 0.15);
+            background: rgba(0, 210, 255, 0.14);
             color: var(--accent-cyan);
-            border: 1px solid rgba(0, 210, 255, 0.3);
+            border: 1px solid rgba(0, 210, 255, 0.35);
             padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            border-radius: 999px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+
+        .pkg-badge {
+            display: inline-block;
+            background: rgba(251, 191, 36, 0.12);
+            color: var(--accent-gold);
+            border: 1px solid rgba(251, 191, 36, 0.35);
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 0.8rem;
             font-weight: 600;
         }
 
         h2 {
-            font-size: 1.3rem;
+            font-size: 1.22rem;
             color: var(--accent-gold);
-            margin-top: 36px;
-            margin-bottom: 14px;
+            margin-top: 32px;
+            margin-bottom: 12px;
             border-left: 4px solid var(--accent-cyan);
             padding-left: 12px;
         }
 
         p {
             color: var(--text-main);
-            margin-bottom: 16px;
-            font-size: 1rem;
+            margin-bottom: 14px;
+            font-size: 0.97rem;
         }
 
         ul {
-            margin-left: 24px;
-            margin-bottom: 20px;
+            margin-left: 22px;
+            margin-bottom: 18px;
             color: var(--text-muted);
+            font-size: 0.95rem;
         }
 
         li {
@@ -133,9 +195,9 @@
         }
 
         .en-section {
-            margin-top: 50px;
+            margin-top: 48px;
             padding-top: 40px;
-            border-top: 1px dashed rgba(255, 255, 255, 0.15);
+            border-top: 1px dashed rgba(255, 255, 255, 0.16);
         }
 
         .footer {
@@ -144,10 +206,13 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding-top: 24px;
             color: var(--text-muted);
-            font-size: 0.9rem;
+            font-size: 0.88rem;
         }
 
         @media (max-width: 640px) {
+            body {
+                padding: 20px 12px 44px;
+            }
             .container {
                 padding: 28px 20px;
             }
@@ -160,78 +225,134 @@
 <body>
 
 <div class="container">
-    <div class="header">
-        <a href="index.html" class="nav-back">← LampDrop 公式トップへ戻る</a>
-        <h1>プライバシーポリシー<br><span style="font-size: 1.25rem; font-family: 'Inter', sans-serif; font-weight: normal; color: var(--text-muted);">Privacy Policy</span></h1>
-        <span class="updated-badge">最終更新日: 2026年10月18日</span>
+    <div class="top-bar">
+        <a href="index.html" class="nav-back">← LampDrop 公式Webサイトへ戻る / Back to Official Site</a>
+        <div class="lang-tabs">
+            <button class="lang-tab active" onclick="filterLang('both', this)">JP + EN</button>
+            <button class="lang-tab" onclick="filterLang('ja', this)">日本語のみ</button>
+            <button class="lang-tab" onclick="filterLang('en', this)">English Only</button>
+        </div>
     </div>
 
-    <p>本プライバシーポリシーは、<strong>Studio LampKeep</strong>（以下「当方」）が開発・配信するAndroid向けゲームアプリケーション<strong>『LampDrop（ランプドロップ：混沌迷宮の蒼き灯火）』（英語表記: LampDrop: Chaos Labyrinth）</strong>（以下「本アプリ」）における、利用者情報の取り扱い方針を定めるものです。</p>
+    <div class="header">
+        <h1>プライバシーポリシー<br><span style="font-size: 1.15rem; font-family: 'Inter', sans-serif; font-weight: 500; color: var(--text-muted);">Privacy Policy — LampDrop: Chaos Labyrinth</span></h1>
+        <div class="meta-row">
+            <span class="updated-badge">最終更新日 / Last Updated: 2026年11月12日 (Nov 12, 2026)</span>
+            <span class="pkg-badge">Package: com.lampkeep.blockdrop1988</span>
+        </div>
+    </div>
 
-    <h2>1. 個人情報の収集および利用について</h2>
-    <p>本アプリは、<strong>利用者の氏名、メールアドレス、電話番号、住所、連絡先データ、位置情報、その他いかなる個人情報も収集・保存・送信いたしません。</strong> ユーザー登録やログイン等の手続きを要求することなく、オフラインでもプレイ可能です。</p>
+    <!-- Japanese Section -->
+    <div id="secJa">
+        <p>本プライバシーポリシーは、<strong>Studio LampKeep（蒼灯機関）</strong>（以下「当方」）が開発・配信するAndroid向けゲームアプリケーション<strong>『LampDrop（ランプドロップ：混沌迷宮の蒼き灯火）』（英語表記: LampDrop: Chaos Labyrinth）</strong>（以下「本アプリ」）における利用者情報の取り扱い方針を定めるものです。</p>
 
-    <h2>2. アプリが要求する権限と利用目的</h2>
-    <p>本アプリでは、以下の必要最小限の権限のみを要求します：</p>
-    <ul>
-        <li><strong>インターネット接続（INTERNET / ACCESS_NETWORK_STATE）</strong>: 広告配信およびネットワーク接続状態の確認のために使用します。</li>
-        <li><strong>バイブレーション制御（VIBRATE）</strong>: ブロック着地時やライン消去時の触覚フィードバック（ハプティクス演出）のためにのみ使用します。端末設定でオフにすることも可能です。</li>
-    </ul>
-    <p>カメラ、マイク、外部ストレージ、連絡先、通話履歴等の機密情報へのアクセスは一切行いません。</p>
+        <h2>1. 個人情報の非収集方針</h2>
+        <p>本アプリは、<strong>利用者の氏名、メールアドレス、電話番号、住所、連絡先データ、GPS位置情報、カメラ映像、マイク音声、端末内の写真・ファイル等、個人を特定できるいかなる情報も収集・保存・販売いたしません。</strong> アカウント登録やログイン手続きは一切不要で、オフライン環境でも本編をプレイ可能です。</p>
 
-    <h2>3. 広告配信および第三者SDKについて</h2>
-    <p>本アプリでは、開発・運営継続のための無料提供モデルとして、Googleが提供する広告配信プラットフォーム<strong>Google AdMob（Google Mobile Ads SDK）</strong>を利用しています。</p>
-    <p>Googleは、広告の配信、パーソナライズ、不正防止およびパフォーマンス計測を目的として、広告識別子（Google Advertising ID）等の端末情報を自動的に取得・処理する場合があります。Googleにおけるデータの取り扱いおよびオプトアウト方法の詳細については、以下のGoogle公式規約をご確認ください：</p>
-    <ul>
-        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google 広告ポリシーと利用規約</a></li>
-        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
-    </ul>
-
-    <h2>4. お子様のプライバシー保護（COPPA / ファミリーポリシー対応）</h2>
-    <p>本アプリは、あらゆる年齢層の皆様に安心してご利用いただけるよう配慮して設計されています。13歳未満のお子様から個人情報を故意に収集することは決してありません。</p>
-
-    <h2>5. プライバシーポリシーの改定</h2>
-    <p>法令の変更やサービス内容の更新に伴い、本ポリシーの内容を改定する場合があります。改定した場合は、本Webサイトにて速やかに最新版を公表いたします。</p>
-
-    <h2>6. お問い合わせ先</h2>
-    <p>本プライバシーポリシーまたは本アプリに関するご質問、ご要望がございましたら、公式ポータルサイトまたはGoogle Playストアの配信者情報に記載のお問い合わせ先までご連絡ください。</p>
-    <p>開発者: <strong>Studio LampKeep</strong><br>
-    公式サイト: <a href="https://lampkeeper2026.github.io/" target="_blank" rel="noopener">Studio LampKeep Official Portal</a></p>
-
-    <!-- English Section -->
-    <div class="en-section">
-        <h1 style="font-size: 1.6rem;">Privacy Policy (English)</h1>
-        <p style="margin-top: 10px;">This Privacy Policy applies to the Android game application <strong>"LampDrop: Chaos Labyrinth"</strong> (the "App"), developed and published by <strong>Studio LampKeep</strong>.</p>
-
-        <h2>1. Information Collection and Storage</h2>
-        <p>Studio LampKeep does <strong>NOT collect, store, transmit, or sell</strong> any personally identifiable user data (such as names, emails, addresses, contact lists, GPS location, or device files).</p>
-
-        <h2>2. Permissions Requested</h2>
-        <p>The App requests standard Android permissions strictly for app functionality:</p>
+        <h2>2. アプリが要求する権限と利用目的</h2>
+        <p>本アプリでは、ゲーム機能およびストア連携に必要な最小限の標準権限のみを使用します：</p>
         <ul>
-            <li><strong>INTERNET & ACCESS_NETWORK_STATE</strong>: Used solely for loading non-intrusive advertisements via Google AdMob and checking network availability.</li>
-            <li><strong>VIBRATE</strong>: Used strictly for in-game tactile haptic feedback during piece locking and line clears.</li>
+            <li><strong>インターネット接続（INTERNET / ACCESS_NETWORK_STATE）</strong>: 無料版における広告表示、オンライン全国ランキングの取得・送信、任意クラウドセーブ機能、およびGoogle Play課金状態の照会にのみ使用します。</li>
+            <li><strong>バイブレーション制御（VIBRATE）</strong>: ブロック着地時やライン消去時の触覚フィードバック（ハプティクス演出）のためにのみ使用します（ゲーム内設定でいつでもOFFに切替可能）。</li>
+            <li><strong>Google Play 課金サービス（com.android.vending.BILLING）</strong>: 買い切り型「プレミアムパス」の購入および機種変更時の購入復元処理にのみ使用します。</li>
         </ul>
 
-        <h2>3. Third-Party Advertising (Google AdMob)</h2>
-        <p>The App uses <strong>Google AdMob</strong> to display advertisements. The Google Mobile Ads SDK may automatically collect and process pseudonymous identifiers (such as the Google Advertising ID) and telemetry to serve ads, detect fraud, and provide analytics. For more information on how Google processes user data, please consult:</p>
+        <h2>3. オンラインランキングおよび任意クラウドセーブについて</h2>
         <ul>
-            <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies & Terms</a></li>
+            <li><strong>全国オンラインランキング</strong>: ランキング機能を利用する際、アプリ内で自動生成されたランダムな匿名識別子（UUID）、任意のプレイヤー名（アーケードハンドルネーム）、スコア、到達レベル、ゲームモードのみを送信します。実名や個人情報を含めないようご注意ください。</li>
+            <li><strong>任意クラウドセーブ（データ引き継ぎ）</strong>: 利用者が明示的にクラウド保存を実行した場合のみ、任意の引き継ぎキー、一方向ハッシュ化されたパスコード、およびゲーム進行データ（クリア階層・実績・ハイスコア等）を暗号化通信（HTTPS）経由で保存します。</li>
+        </ul>
+
+        <h2>4. アプリ内課金（Google Play Billing）について</h2>
+        <p>本アプリの買い切り型課金アイテム「プレミアムパス」の決済処理は、すべてGoogle LLCが提供する<strong>Google Play Billing</strong>の安全な決済基盤上で処理されます。当方が利用者のクレジットカード番号、銀行口座、請求先住所等の決済情報を取得・閲覧・保持することは一切ありません。</p>
+
+        <h2>5. 広告配信（Google AdMob）について</h2>
+        <p>本アプリの無料版では、開発・運営継続のためGoogleが提供する<strong>Google AdMob（Google Mobile Ads SDK）</strong>を利用しています（※「プレミアムパス」購入済みの場合はすべての広告表示および広告リクエストが停止されます）。</p>
+        <p>Google Mobile Ads SDKは、適切な広告配信、不正防止、およびパフォーマンス計測を目的として、広告識別子（Google Advertising ID）やクラッシュ診断情報等の仮名データを自動取得する場合があります。詳細は以下のGoogle公式ポリシーをご参照ください：</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google 広告ポリシーと利用規約</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a></li>
+        </ul>
+
+        <h2>6. お子様のプライバシー保護（COPPA / ファミリーポリシー対応）</h2>
+        <p>本アプリは、13歳未満のお子様から個人情報を故意に収集することは決してありません。万が一、お子様がプレイヤー名等に個人情報を入力された場合は、下記お問い合わせ先より削除をご依頼いただけます。</p>
+
+        <h2>7. プライバシーポリシーの改定・お問い合わせ先</h2>
+        <p>法令の改正や機能追加に伴い、本ポリシーを改定する場合があります。改定後は本ページにて速やかに最新版を公表いたします。本アプリに関するご質問・ご要望は以下の公式窓口までご連絡ください。</p>
+        <p>開発・運営: <strong>Studio LampKeep（蒼灯機関）</strong><br>
+        公式ポータル: <a href="https://studiolampkeep.github.io/LampKeeper2026.github.io/" target="_blank" rel="noopener">https://studiolampkeep.github.io/LampKeeper2026.github.io/</a><br>
+        公式特設サイト: <a href="https://studiolampkeep.github.io/LampKeeper2026.github.io/lampdrop/" target="_blank" rel="noopener">https://studiolampkeep.github.io/LampKeeper2026.github.io/lampdrop/</a></p>
+    </div>
+
+    <!-- English Section -->
+    <div id="secEn" class="en-section">
+        <h1 style="font-size: 1.6rem;">Privacy Policy (English)</h1>
+        <p style="margin-top: 10px;">This Privacy Policy governs the handling of user information in the Android game application <strong>"LampDrop: Chaos Labyrinth"</strong> (Package ID: <code>com.lampkeep.blockdrop1988</code>, the "App"), developed and published by <strong>Studio LampKeep</strong>.</p>
+
+        <h2>1. Zero Collection of Personal Information</h2>
+        <p>Studio LampKeep does <strong>NOT collect, store, transmit, or sell</strong> any personally identifiable information (such as real names, email addresses, phone numbers, physical addresses, contact lists, GPS location, camera/microphone input, or personal files). No account registration is required, and core gameplay works offline.</p>
+
+        <h2>2. Permissions Requested</h2>
+        <p>The App requests only standard Android permissions strictly required for game features:</p>
+        <ul>
+            <li><strong>INTERNET &amp; ACCESS_NETWORK_STATE</strong>: Used solely for displaying non-intrusive ads in the free edition, fetching/submitting anonymous Online Leaderboard scores, optional Cloud Save transfers, and verifying Google Play purchases.</li>
+            <li><strong>VIBRATE</strong>: Used strictly for optional tactile haptic feedback on piece lock and line clears.</li>
+            <li><strong>com.android.vending.BILLING</strong>: Used solely for purchasing or restoring the optional one-time "Premium Pass" via Google Play.</li>
+        </ul>
+
+        <h2>3. Online Leaderboard &amp; Optional Cloud Save</h2>
+        <ul>
+            <li><strong>Global Leaderboard</strong>: When submitting high scores, only a randomly generated app UUID, your chosen arcade nickname/handle, score, reached level, and game mode are transmitted over HTTPS. Please do not enter real personal information as your nickname.</li>
+            <li><strong>Optional Cloud Save</strong>: Only when explicitly initiated by the user, an user-chosen transfer key, a one-way cryptographic password hash, and in-game progress JSON (unlocked floors, achievements, high scores) are stored securely over HTTPS for cross-device restoration.</li>
+        </ul>
+
+        <h2>4. In-App Purchases (Google Play Billing)</h2>
+        <p>All financial transactions for the one-time "Premium Pass" are processed directly by <strong>Google Play Billing</strong>. Studio LampKeep never receives, views, or stores your credit card details, billing address, or payment credentials.</p>
+
+        <h2>5. Third-Party Advertising (Google AdMob)</h2>
+        <p>The free version of the App uses <strong>Google AdMob (Google Mobile Ads SDK)</strong> to display advertisements (upgrading to the Premium Pass permanently disables all ads). Google may automatically process pseudonymous device identifiers (such as the Google Advertising ID) for ad delivery, fraud prevention, and analytics. Learn more at:</p>
+        <ul>
+            <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies &amp; Terms</a></li>
             <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
         </ul>
 
-        <h2>4. Children's Privacy</h2>
-        <p>The App complies with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policy. We do not knowingly collect any personal information from children under 13.</p>
+        <h2>6. Children's Privacy</h2>
+        <p>We comply with COPPA and Google Play Families guidelines and never knowingly collect personal data from children under 13.</p>
 
-        <h2>5. Contact Us</h2>
-        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us via our official portal:<br>
-        <a href="https://lampkeeper2026.github.io/" target="_blank" rel="noopener">https://lampkeeper2026.github.io/</a></p>
+        <h2>7. Contact Us</h2>
+        <p>For any inquiries regarding this Privacy Policy or data deletion requests (such as leaderboard nickname removal), please visit our official portal:<br>
+        Developer: <strong>Studio LampKeep</strong> — <a href="https://studiolampkeep.github.io/LampKeeper2026.github.io/" target="_blank" rel="noopener">https://studiolampkeep.github.io/LampKeeper2026.github.io/</a></p>
     </div>
 
     <div class="footer">
         &copy; 2026 Studio LampKeep. All Rights Reserved.
     </div>
 </div>
+
+<script>
+    function filterLang(mode, btn) {
+        document.querySelectorAll('.lang-tab').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        const ja = document.getElementById('secJa');
+        const en = document.getElementById('secEn');
+        if (mode === 'ja') {
+            ja.style.display = 'block';
+            en.style.display = 'none';
+        } else if (mode === 'en') {
+            ja.style.display = 'none';
+            en.style.display = 'block';
+            en.style.marginTop = '0';
+            en.style.paddingTop = '0';
+            en.style.borderTop = 'none';
+        } else {
+            ja.style.display = 'block';
+            en.style.display = 'block';
+            en.style.marginTop = '48px';
+            en.style.paddingTop = '40px';
+            en.style.borderTop = '1px dashed rgba(255, 255, 255, 0.16)';
+        }
+    }
+</script>
 
 </body>
 </html>
